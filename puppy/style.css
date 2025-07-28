@@ -1,0 +1,17 @@
+.puppy-rain {
+    position: fixed;
+    top: -100px; /* Start slightly higher for bigger puppies */
+    width: 100px;
+    height: auto; /* Maintain ratio */
+    z-index: 999999;
+    animation: fall 4s linear forwards;
+    pointer-events: none;
+  }
+  
+  @keyframes fall {
+    to {
+      transform: translateY(120vh) rotate(360deg);
+      opacity: 0.8;
+    }
+  }
+  
