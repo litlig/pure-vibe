@@ -7,7 +7,7 @@ let puppyImages = [
   
   document.addEventListener("keydown", (e) => {
     // Trigger: Shift + Cmd + P (on Mac)
-    if (e.shiftKey && e.metaKey && (e.key.toLowerCase() === "p")) {
+    if ((e.metaKey || e.ctrlKey) && e.shiftKey && e.key.toLowerCase() === "p") {
       rainPuppies();
     }
   });

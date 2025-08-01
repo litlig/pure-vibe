@@ -3,7 +3,6 @@
     "name": "Puppy Rain",
     "version": "1.0",
     "description": "Press Shift + CMD + p to make puppies rain on any page!",
-    "permissions": ["activeTab", "scripting"],
     "content_scripts": [
       {
         "matches": ["<all_urls>"],
