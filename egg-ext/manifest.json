@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Egg Thrower",
-  "version": "1.2",
+  "version": "1.3",
   "description": "Throw and crack eggs on the screen using keyboard shortcut.",
   "permissions": ["scripting", "activeTab"],
   "background": {
@@ -15,14 +15,14 @@
   ],
   "web_accessible_resources": [
     {
-      "resources": ["egg.png", "cracked_egg.png"],
+      "resources": ["egg.png", "cracked_egg.png", "rotten_egg.png"],
       "matches": ["<all_urls>"]
     }
   ],
   "action": {
     "default_icon": "icon.png",
     "default_title": "Drop an Egg"
-  },  
+  },
   "icons": {
       "128": "icon.png"
   }
